@@ -78,7 +78,7 @@ class _HomePageState extends State<HomePage> {
     super.initState();
     final url = "https://dog.ceo/api/breeds/image/random";
     fetchPost();
-    print("===================" +
+    print("====================" +
         _journals.length.toString() +
         "=====================");
     if (myMessage != "") {
