@@ -122,12 +122,7 @@ class _HomePageState extends State<HomePage> {
     _refreshJournals();
   }
 
-  // @override
-  // void initState() {
-  //   // TODO: implement initState
-  //   super.initState();
-  //   fetchPost();
-  // }
+
 
   @override
   Widget build(BuildContext context) {
