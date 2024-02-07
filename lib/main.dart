@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart';
 import 'package:newassignment/sql_helper.dart';
 
-//new comment
 
 List<Map<String, dynamic>> _journals = [];
 List<Map<String, dynamic>> _journalsCart = [];
