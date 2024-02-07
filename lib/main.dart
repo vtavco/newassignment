@@ -93,23 +93,7 @@ class _HomePageState extends State<HomePage> {
     print(_journals.length);
   }
 
-  // Insert a new journal to the database
 
-  // Update an existing journal
-  // Future<void> _updateItem(int id) async {
-  //   await SQLHelper.updateItem(
-  //       id, _titleController.text, _descriptionController.text);
-  //   _refreshJournals();
-  // }
-
-  // Delete an item
-  // void _deleteItem(int id) async {
-  //   await SQLHelper.deleteItem(id);
-  //   ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
-  //     content: Text('Successfully deleted a journal!'),
-  //   ));
-  //   _refreshJournals();
-  // }
 
   void fetchPost() async {
     try {
